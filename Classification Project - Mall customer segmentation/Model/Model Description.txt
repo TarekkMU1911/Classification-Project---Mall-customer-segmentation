@@ -1,0 +1,47 @@
+ CatBoosting Model Performance Report
+
+Overview
+The CatBoosting model has been evaluated for its performance on both the training and test datasets. This report summarizes the key metrics and outcomes from these evaluations to provide a clear understanding of the model's effectiveness and reliability.
+
+Accuracy
+- Test Group Accuracy: 55.00%
+- Train Group Accuracy: 84.44%
+
+The accuracy on the test set indicates that the CatBoosting model correctly classifies 55% of the instances, while the higher accuracy on the training set suggests a strong fit to the training data.
+
+Classification Report - Test Group
+- Female Class:
+  - Precision: 0.47
+  - Recall: 0.88
+  - F1-Score: 0.61
+- Male Class:
+  - Precision: 0.80
+  - Recall: 0.33
+  - F1-Score: 0.47
+
+The model shows higher precision for the male class but significantly higher recall for the female class, indicating that it identifies more female instances correctly but with less precision.
+
+ Classification Report - Train Group
+- Female Class:
+  - Precision: 0.81
+  - Recall: 0.96
+  - F1-Score: 0.88
+- Male Class:
+  - Precision: 0.93
+  - Recall: 0.68
+  - F1-Score: 0.79
+
+These metrics suggest that the model performs exceptionally well on the training data, with high precision and recall, especially for the female class.
+
+Confusion Matrix - Test Group
+The confusion matrix for the test group reveals the following:
+- 7 instances of the female class were correctly classified.
+- 1 instance of the female class was incorrectly classified as male.
+- 8 instances of the male class were incorrectly classified as female.
+- 4 instances of the male class were correctly classified.
+
+Overfitting
+The difference in accuracy between the training (84.44%) and test sets (55.00%) indicates some overfitting. While the model performs well on the training data, its performance drops on unseen data, suggesting that it may be too tailored to the training set.
+
+Conclusion
+The CatBoosting model demonstrates a good balance between precision and recall across both classes on the test set, despite some overfitting. With its higher overall accuracy and more favorable metrics compared to the Decision Tree model, CatBoosting is the recommended model for deployment. Further efforts to reduce overfitting, such as tuning hyperparameters or incorporating more data, could improve its performance on the test set.

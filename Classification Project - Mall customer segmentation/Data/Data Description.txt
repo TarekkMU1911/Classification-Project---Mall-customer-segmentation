@@ -1,0 +1,13 @@
+The dataset consists of customer information, with each record representing a unique individual. The columns in the dataset provide insights into various demographic and behavioral attributes of the customers. Here is a detailed description of each column:
+
+1. CustomerID: This column contains a unique identifier for each customer. It is a numerical value that distinguishes each record from the others in the dataset.
+
+2. Gender: This column indicates the gender of the customer. It typically contains categorical values such as 'Male' or 'Female', providing information on the distribution of genders within the dataset.
+
+3. Age: This column records the age of the customers. It is a numerical value representing the age in years and helps in understanding the age distribution and demographic segmentation of the customer base.
+
+4. Annual Income (k$): This column specifies the annual income of the customers in thousands of dollars. It is a numerical value that reflects the financial status of the customers and can be used for economic segmentation and analysis.
+
+5. Spending Score (1-100): This column measures the spending score of the customers, ranging from 1 to 100. The spending score is typically an indicator of a customer's spending behavior and purchasing potential, with higher scores suggesting higher spending propensity.
+
+Overall, this dataset is valuable for analyzing customer demographics, financial status, and spending behavior. It can be used for various purposes such as customer segmentation, targeted marketing, and personalized service offerings.
